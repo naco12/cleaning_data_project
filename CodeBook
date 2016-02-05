@@ -1,0 +1,88 @@
+1)Variable description:
+
+subx:person performing the test, There are 30 persons 
+"actx" : activity perform by the persons. there are 6 activities
+"tBodyAccmean()X":time signal measuring mean Body acceleration in X ax, unit in hz
+"tBodyAccmean()Y" :time signal measuring mean Body acceleration in y ax,unit in hz
+"tBodyAccmean()Z":time signal measuring mean Body acceleration in z ax,unit in hz
+"tGravityAccmean()X":time signal measuring mean gravity acceleration in X ax, unit in hz
+"tGravityAccmean()Y":time signal measuring mean gravity acceleration in y ax, unit in hz
+"tGravityAccmean()Z":time signal measuring mean gravity acceleration in z ax, unit in hz
+"tBodyAccJerkmean()X":mean of the time derive of the body linear acceleration and angular velocity in x ax, unit in hz
+"tBodyAccJerkmean()Z":mean of the time derive of the body linear acceleration and angular velocity in z ax, unit in hz
+"tBodyGyromean()X": time signal giving gyrometer body mean in X ax, unit in hz
+"tBodyGyromean()Y": time signal giving gyrometer body mean in y ax, unit in hz
+"tBodyGyromean()Z": time signal giving gyrometer body mean in z ax, unit in hz
+"tBodyGyroJerkmean()X": time derive of the gyrometer body mean and angular velocity in x ax, unit in hz
+"tBodyGyroJerkmean()Y": time derive of the gyrometer body mean and angular velocity in y ax, unit in hz
+"tBodyGyroJerkmean()Z":time derive of the gyrometer body mean and angular velocity in z ax, unit in hz
+"tBodyAccMagmean()" :Euclidien norm calculation of the Jerk signal, unit in hz
+"tGravityAccMagmean()": Euclidien norm calculation of the signal, unit in hz
+"tBodyAccJerkMagmean()":Euclidien norm calculation of the signal, unit in hz
+"tBodyGyroMagmean()" :Euclidien norm calculation of the signal, unit in hz
+"tBodyGyroJerkMagmean()" :Euclidien norm calculation of the signal, unit in hz
+"fBodyAccmean()X" : Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration in X ax, unit in hz
+"fBodyAccmean()Y" :Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration in y ax, unit in hz
+"fBodyAccmean()Z" :Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration in z ax, unit in hz
+"fBodyAccmeanFreq()X": Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration freq. in x ax, unit in hz
+"fBodyAccmeanFreq()Y":Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration freq. in y ax, unit in hz
+"fBodyAccmeanFreq()Z":Fast Fourier Transform (FFT) was applied to signal measuring mean Body acceleration freq. in z ax, unit in hz
+"fBodyAccJerkmean()X":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkmean()Y":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkmean()Z": Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkmeanFreq()X":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyAccJerkmeanFreq()Y" :Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkmeanFreq()Z":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyromean()X":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyGyromean()Y" :Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyromean()Z" :Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyromeanFreq()X" :Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyromeanFreq()Y":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyromeanFreq()Z":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyAccMagmean()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccMagmeanFreq()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyAccJerkMagmean()":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyBodyAccJerkMagmeanFreq()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyGyroMagmean()":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyBodyGyroMagmeanFreq()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyGyroJerkMagmean()" :Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyGyroJerkMagmeanFreq()":Fast Fourier Transform (FFT) of t corresponding signal 
+"tBodyAccstd()X":time signal measuring standard dev.of Body acceleration in X ax
+"tBodyAccstd()Y":time signal measuring standard dev.of Body acceleration in y ax
+"tBodyAccstd()Z":time signal measuring standard dev.of Body acceleration in z ax
+"tGravityAccstd()X": time signal measuring standard dev. of gravity acceleration in X ax
+"tGravityAccstd()Y":time signal measuring standard dev. of gravity acceleration in y ax
+"tGravityAccstd()Z":time signal measuring standard dev. of gravity acceleration in z ax 
+"tBodyAccJerkstd()X":standard dev. of the time derive of the body linear acceleration and angular velocity in x ax
+"tBodyAccJerkstd()Y":standard dev. of the time derive of the body linear acceleration and angular velocity in y ax 
+"tBodyAccJerkstd()Z":standard dev. of the time derive of the body linear acceleration and angular velocity in z ax 
+"tBodyGyrostd()X":time signal giving gyrometer body standard deviation in X ax 
+"tBodyGyrostd()Y":time signal giving gyrometer body standard deviation in y ax  
+"tBodyGyrostd()Z": time signal giving gyrometer body standard deviation in z ax 
+"tBodyGyroJerkstd()X":time derive of the gyrometer body standard dev. and angular velocity in x ax
+"tBodyGyroJerkstd()Y":time derive of the gyrometer body standard dev. and angular velocity in y ax
+"tBodyGyroJerkstd()Z":time derive of the gyrometer body standard dev. and angular velocity in z ax
+"tBodyAccMagstd()":standard dev. of the Euclidien norm calculation of the signal
+"tGravityAccMagstd()": standard dev. of the Euclidien norm calculation of the signal
+"tBodyAccJerkMagstd()":standard dev. of the Euclidien norm calculation of the signal
+"tBodyGyroMagstd()":standard dev. of the Euclidien norm calculation of the signal
+"tBodyGyroJerkMagstd()":standard dev. of the Euclidien norm calculation of the signal
+"fBodyAccstd()X":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccstd()Y":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccstd()Z":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkstd()X":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyAccJerkstd()Y":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccJerkstd()Z":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyGyrostd()X":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyGyrostd()Y":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyGyrostd()Z":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyAccMagstd()":Fast Fourier Transform (FFT) of t corresponding signal 
+"fBodyBodyAccJerkMagstd()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyGyroMagstd()":Fast Fourier Transform (FFT) of t corresponding signal
+"fBodyBodyGyroJerkMagstd()":Fast Fourier Transform (FFT) of t corresponding signal
+
+2) data description
+The row data was devided in a test and train set. the test set measure the activities of 9 persons and the train data for 21 persons. There are 6 activities measure using accelerometer and gyrometer. the activities are: laying, standing, walking, walking_upstairs, walking_downstairs, sitting.
+first the train data were merge together to have one data set.named data. then the mean and std were localised in the feature set. the feature set represent the variables name of the data frame data.Using the feature element representing mean and std, a new data frame was extracted from data data frame. the new data frame name is datameanstd. next the activities code was replace in actx column of datameanstd using gsub function. the data frame variable names were set using the function names() and the extracted elements of features contening mean or std.
+using group_by and summarize_each, the data was group by subject and activity before being summarize.
+the new data frame was giving the name stydidata.
